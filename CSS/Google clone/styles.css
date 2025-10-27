@@ -24,7 +24,12 @@ div {
 }
 .btn {
   display: block;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+  border-radius:6px;
+  border: 0px;
+  padding: 10px 15px 10px 15px;
+  background-color: #dfe1e5;
+  font-size: large;
 }
