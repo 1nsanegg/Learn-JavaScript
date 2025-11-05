@@ -1,19 +1,38 @@
 body {
-    margin: 20px;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .personal_img {
-    width: 150px;
+  width: 150px;
 }
 .card {
-    width: 400px;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    color: #2b2839;
-    background-color: #ddebf8;
-    border-bottom: 5px solid #d8cefe;
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  /* margin-left: auto;
+    margin-right: auto; */
+  margin: 0 auto;
+  text-align: center;
+  color: #2b2839;
+  background-color: #ddebf8;
+  border-bottom: 5px solid #d8cefe;
+  border-radius: 20px;
+  text-shadow: 2px 2px 5px wheat;
+  animation-name: myAnimation;
+  animation-duration: 10s;
 }
-
+@keyframes myAnimation {
+  0% {
+    background-color: white;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
