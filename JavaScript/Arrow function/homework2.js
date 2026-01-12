@@ -53,3 +53,4 @@ timer.start();
 
 //<button onClick={() => handleDelete(id)}>Delete</button>;
 // this is preferred cause you can pass the param to the function
+ 
